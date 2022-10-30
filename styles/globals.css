@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Kalam:wght@700&family=Nunito&display=swap');
+
+:root{
+    --pale-dk:rgba(0,0,0,0.75);
+    --dk:rgba(0,0,0,1);
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background: #eee !important;
+}
+
+#task{
+    min-height:200px;
+}
+
+#category:hover{
+    cursor: pointer;
+}
